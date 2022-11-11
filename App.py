@@ -8,7 +8,7 @@ import networkx.algorithms.community as nx_comm
 #from community import community_louvain
 
 st.title(' Optimal traffic routes prediction for Shuttle Services ')
-st.markdown(html_temp, unsafe_allow_html = True)
+st.markdown('Karate Club Graph')
 
 uploaded_file = st.file_uploader(" ", type=['xlsx']) #Only accepts excel file format
 
